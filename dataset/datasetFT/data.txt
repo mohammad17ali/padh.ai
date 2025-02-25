@@ -1,0 +1,102 @@
+
+training_data = [
+    {
+        "original_query": 'What is Newton’s Third Law?'
+        "field_of_interest": 'Basketball'
+        "knowledge_level": 'Middle school'
+        "restructured_query": 'Explain Newton’s Third Law to a 7th grader using a basketball example.'
+        "answer": 'Ever noticed how when you bounce a basketball, it comes right back up? That’s Newton’s Third Law in action! The law states, "For every action, there is an equal and opposite reaction." When you push the basketball down against the court (action), the court pushes it back up with the same force (reaction). The harder you push, the higher it bounces! This also happens when a player jumps—by pushing down on the floor, the floor pushes them up into the air, allowing them to dunk or shoot! 🚀🏀'
+    },
+    {
+        "original_query": 'What is photosynthesis?'
+        "field_of_interest": 'Cooking'
+        "knowledge_level": 'Elementary school'
+        "restructured_query": 'Explain photosynthesis using cooking as an example for a 4th grader.'
+        "answer": 'Plants make their own food like little chefs! Instead of using a stove, they use sunlight. They take in sunlight, water, and air, mix them up inside their leaves, and create food to grow. It’s like baking cookies, but instead of flour and sugar, plants use sunlight and water. Without photosynthesis, there’d be no trees, no fruits, and no oxygen for us to breathe! 🍃☀️'
+    },
+    {
+        "original_query": 'How do batteries work?'
+        "field_of_interest": 'Smartphones'
+        "knowledge_level": 'High school'
+        "restructured_query": 'Explain how batteries work using smartphones for a high schooler.'
+        "answer": 'Ever wondered how your phone runs without being plugged in? That’s the battery at work! Inside, tiny particles called electrons move from one side of the battery to the other, creating energy. This energy powers your phone until the battery runs out. Just like a water tank needs refilling, your phone battery needs charging to keep it going! 📱⚡'
+     },
+    {
+        "original_query": "What is friction?",
+        "field_of_interest": "Skateboarding",
+        "knowledge_level": "Middle school",
+        "restructured_query": "Explain friction to a 7th grader using skateboarding as an example.",
+        "answer": "Friction is the force that resists motion when two surfaces touch. Imagine riding a skateboard on a smooth floor—it moves fast! But if you try skating on rough pavement or grass, the wheels slow down quickly. That’s because rougher surfaces create more friction, which resists motion. Without friction, your skateboard would keep rolling forever, and stopping would be nearly impossible!"
+    },
+    {
+        "original_query": "What is inertia?",
+        "field_of_interest": "Car Racing",
+        "knowledge_level": "High school",
+        "restructured_query": "Explain inertia to a 9th grader using car racing as an example.",
+        "answer": "Inertia is an object's tendency to resist changes in motion. Imagine you're in a race car. When the car suddenly accelerates, you feel pushed back into your seat because your body wants to stay still. When the driver slams the brakes, you lurch forward because your body wants to keep moving. This is inertia in action! It’s why race cars have seatbelts—to keep drivers from flying forward in a sudden stop."
+    },
+    {
+        "original_query": "How does the human heart work?",
+        "field_of_interest": "Plumbing",
+        "knowledge_level": "Middle school",
+        "restructured_query": "Explain how the human heart works using plumbing as an example for a 6th grader.",
+        "answer": "Your heart works like a water pump in a house! It pushes blood (like water) through pipes (your blood vessels) to deliver oxygen and nutrients to different parts of your body. Just like faucets get water when you turn them on, your organs get blood when your heart pumps. If there’s a blockage, just like a clogged pipe, blood can’t flow properly, which can cause problems!"
+    },
+    {
+        "original_query": "What is the Pythagorean Theorem?",
+        "field_of_interest": "Architecture",
+        "knowledge_level": "High school",
+        "restructured_query": "Explain the Pythagorean Theorem using architecture as an example for a 10th grader.",
+        "answer": "The Pythagorean Theorem helps architects make sure buildings and bridges are built at perfect right angles. It states that in a right triangle, the sum of the squares of the two shorter sides equals the square of the longest side. Imagine you’re designing a triangular roof where two sides are 6 meters and 8 meters—using the theorem, you can calculate the diagonal (hypotenuse) as 10 meters. This helps ensure structures are stable and correctly measured!"
+    },
+    {
+        "original_query": "What is an electric circuit?",
+        "field_of_interest": "Railways",
+        "knowledge_level": "Middle school",
+        "restructured_query": "Explain an electric circuit using railways for a 7th grader.",
+        "answer": "An electric circuit is like a railway system! The train (electricity) travels along tracks (wires) and only reaches the station (light bulb or motor) if the track is complete. If there's a broken track (open switch), the train stops—just like electricity stops flowing in an open circuit. When the track is complete (closed circuit), the train moves, and the light turns on!"
+    },
+    {
+        "original_query": "What is DNA?",
+        "field_of_interest": "Computer Programming",
+        "knowledge_level": "High school",
+        "restructured_query": "Explain DNA using computer programming for an 11th grader.",
+        "answer": "DNA is like the code that runs a program—it contains instructions for how living things grow and function. Just like software code tells a computer how to work, DNA tells cells what to do, like what color your eyes will be or how tall you’ll grow. If there’s a small mistake in the code, it might cause glitches—just like a bug in a program!"
+    },
+    {
+        "original_query": "What is buoyancy?",
+        "field_of_interest": "Boats",
+        "knowledge_level": "Middle school",
+        "restructured_query": "Explain buoyancy using boats for a 6th grader.",
+        "answer": "Buoyancy is the force that helps things float on water. Imagine a boat sitting on a lake—the water pushes up on it, stopping it from sinking. The bigger and lighter the boat, the better it floats because it spreads its weight over a large area. This is why huge ships don’t sink, even though they’re heavy!"
+    },
+    {
+        "original_query": "What is refraction?",
+        "field_of_interest": "Swimming Pools",
+        "knowledge_level": "Middle school",
+        "restructured_query": "Explain refraction using a swimming pool for a 7th grader.",
+        "answer": "Have you ever noticed how your legs look bent when you stand in a pool? That’s refraction! Light bends when it moves from air to water, making things appear at a different position than they actually are. That’s why a fish in a pond looks closer than it really is!"
+    },
+    {
+        "original_query": "How do plants absorb water?",
+        "field_of_interest": "Paper Towels",
+        "knowledge_level": "Elementary school",
+        "restructured_query": "Explain how plants absorb water using paper towels for a 3rd grader.",
+        "answer": "Plants absorb water just like a paper towel soaks up a spill! Their roots pull water from the soil and carry it up the stem to the leaves, just like a paper towel pulls water upward when one end is dipped into it. This is how plants drink!"
+    },
+    {
+        "original_query": "What is static electricity?",
+        "field_of_interest": "Balloons",
+        "knowledge_level": "Elementary school",
+        "restructured_query": "Explain static electricity using balloons for a 5th grader.",
+        "answer": "Ever rubbed a balloon on your hair and seen it stick to a wall? That’s static electricity! When you rub the balloon, tiny invisible charges move onto it, making it attract things—just like a magnet! This is why your hair stands up when rubbed with a balloon!"
+    },
+    {
+        "original_query": "What is resonance?",
+        "field_of_interest": "Musical Instruments",
+        "knowledge_level": "High school",
+        "restructured_query": "Explain resonance using musical instruments for a 12th grader.",
+        "answer": "Resonance happens when one object vibrates and makes another object vibrate at the same frequency. Imagine you hit a tuning fork near a piano—suddenly, a nearby string starts vibrating even though you didn’t touch it! That’s resonance in action, and it’s what makes musical instruments sound rich and full."
+    }
+]
+
