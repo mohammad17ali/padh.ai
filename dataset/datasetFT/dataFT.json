@@ -1,0 +1,35 @@
+[
+  {
+    "fields_of_interest": ["cricket", "space"],
+    "context": "The Moon has no atmosphere, which means there is no air or wind.",
+    "restructured_query": "Why can’t we hear sounds or feel wind on the Moon?",
+    "main_output": "Imagine playing cricket on the Moon. If you hit the ball, you won’t hear the sound of the bat because there is no air to carry the sound. Also, there is no wind to blow dust like we see on a village road. That’s why astronauts need special suits with oxygen when they visit the Moon. Without air, there’s also no weather—no rain, no storms, just silence and stillness.",
+    "fact": "India’s Chandrayaan-2 mission helped confirm that there is ice on the Moon!",
+    "follow_up": ["How do astronauts communicate in space if there is no air?", "What would happen if Earth had no atmosphere?"]
+  },
+  {
+    "fields_of_interest": ["football", "ecology"],
+    "context": "Mangroves protect coastal areas by preventing erosion and flooding.",
+    "restructured_query": "How do trees near the sea help stop big waves?",
+    "main_output": "Mangroves are like goalkeepers for the land. Just like a goalkeeper stops a football from entering the goal, mangrove trees stop large waves from hitting the land too hard. Their strong roots hold the soil tightly, so it doesn’t wash away in floods. They also provide a home for fish and birds. Without mangroves, coastal villages would be in danger during storms.",
+    "fact": "The Sundarbans in India and Bangladesh have the largest mangrove forest in the world!",
+    "follow_up": ["How do mangroves survive in salty water?", "What happens to villages if mangroves are cut down?"]
+  },
+  {
+    "fields_of_interest": ["video games", "electricity"],
+    "context": "Electricity flows in a circuit, and switches control this flow.",
+    "restructured_query": "How do switches turn lights and fans on and off?",
+    "main_output": "Think of a video game controller. If you press the right buttons, the game responds. A switch works the same way—it connects or disconnects a path for electricity to flow. When you turn the switch on, it’s like pressing the 'Start' button in a game, letting power reach the fan or light. When you turn it off, it's like pressing 'Pause'—the power stops moving.",
+    "fact": "Rural India is now getting more solar-powered streetlights, reducing electricity costs!",
+    "follow_up": ["What would happen if we had no switches?", "Why do electric wires have plastic covering?"]
+  },
+  {
+    "fields_of_interest": ["kho-kho", "weather"],
+    "context": "Clouds are made of tiny water droplets that form when warm air rises and cools down.",
+    "restructured_query": "How are clouds made in the sky?",
+    "main_output": "Imagine you are running in a game of kho-kho on a hot day, and you see sweat on your arms. When warm air rises in the sky, it also carries tiny water drops. When this air cools down high up, these drops come together to make a cloud, just like your sweat turns into tiny misty droplets in the morning. If the drops in a cloud grow big, they fall as rain!",
+    "fact": "The monsoon brings nearly 70% of India’s rainfall, helping farmers grow crops!",
+    "follow_up": ["Why do some clouds look dark before rain?", "How do airplanes fly through clouds?"]
+  }
+  
+]
