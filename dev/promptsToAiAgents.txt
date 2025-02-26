@@ -22,4 +22,7 @@
   
   ----
   Now guide me on how I can post train my fine tuned model to perform tasks in this way fro such a workflow.
+  },
+  {
+  Maybe I can use a comparatively small languaage model (maybe a small language model) to pre process the input query and return a structured query, which will be used as input for the main fine tuned educational model? I can execute thiis using a pipeline. Evaluate thiis idea.
   }
