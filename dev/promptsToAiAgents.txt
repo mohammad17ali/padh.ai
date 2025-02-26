@@ -1,0 +1,25 @@
+{
+  {
+  So I am working on a project. It is an educational platform powered by agentic AI chatbot like interface, specifically designed to equip indian primary grade students with knowledge and awareness about various fields that they are normally not aware of. I plan to do this by designing the platfrom such that it encourages critical thinking, original thinking, and curiosity, and feeding to theri curious and interrogative attitiude, instead of spoon feeding answers to their queries. 
+  For this, I am building the backend by fine tuning TinyLlama model on kaggle using GPU P100. I need a dataset which can teach and fine tune the TinyLLM to first restructure the query and generate outputs according to the knowledge level of the user (e.g. Primary, High School, College, Experienced, etc), and also generate an interesting fact at the end, along with interesting follow up questions related to the field. Also, in the platform, learners can choose experts that will explain the concepts to them. For example, they can choose Einstein to explain physics concepts. The restructuring of the prompt will handle this, as it will specify that the generated output has to sound like it is from Einstein, based on deep physics explanation. Similarly thye can choose other experts like Feynmann, APJ Kalam, CV Raman, or even Chhota Bheem and other characters. I have already fine tuned the model on an educational dataset, but I want the model to generate the ultimate output in a way similar to the following example;
+  <restructured_query>: Restructured Query
+  <main_output>: Main Content
+  <fact>: Reelevant fact
+  <follow_up>: Follow up questions
+  
+  Guide me. Should I fine tune it again, on a such a dataset, or is there any other post training or pre processing method to achieve this?
+  },
+  {
+  So basicaally i want my fine tuned model to perform in this way;
+  a. Input part
+  1. A learner sets up their fields of interest and basically things they know how they works, which when the model gives any analogy about, the user should understand (say the user chooses cricket in this case).
+  2. The user writes a prompt, basically asking a question or putting a general query (say the user asks 'explain projectile motion'.
+  3. The user chooses an expert to answer their query. (say Einstein in this case).
+  -->
+  b. Pre processing part
+  1. The model first restructires the query based on the user persona, here it has to identify the kknowledge level of the user, their interests, and the query, and how and if they can be related. If so, it restructires the query in a way the learner can easily understand. (in this case, 'Explain Projectile motion to an 8th grader with an illustrious example of a batsman hitting a six and the ball following aa projectile motion. The asnwer should be physically sound.'
+  2. Random thought provoking fact or follow up questions: The model has to come up with facts or questions related to the topic and the user's interests, or even go out of the constrained space and invoke curiosity in the user. 
+  
+  ----
+  Now guide me on how I can post train my fine tuned model to perform tasks in this way fro such a workflow.
+  }
